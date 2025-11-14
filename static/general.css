@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #B7CEFF;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+    height: 100px;
+    align-items: center;
+    background-color: #92B4FF;
+}
+
+footer{
+    width: calc(100%-50px);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    background-color: #92B4FF;
+    color: white;
+}
